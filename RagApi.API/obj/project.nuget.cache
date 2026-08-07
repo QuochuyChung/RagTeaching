@@ -1,0 +1,31 @@
+{
+  "version": 2,
+  "dgSpecHash": "/Q0I/d4OEMo=",
+  "success": true,
+  "projectFilePath": "D:\\Teaching\\RAG\\SourceCode\\RagApi.API\\RagApi.API.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\google.protobuf\\3.31.0\\google.protobuf.3.31.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\grpc.core.api\\2.71.0\\grpc.core.api.2.71.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\grpc.net.client\\2.71.0\\grpc.net.client.2.71.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\grpc.net.common\\2.71.0\\grpc.net.common.2.71.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.aspnetcore.openapi\\10.0.9\\microsoft.aspnetcore.openapi.10.0.9.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.4\\microsoft.entityframeworkcore.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.4\\microsoft.entityframeworkcore.abstractions.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.4\\microsoft.entityframeworkcore.analyzers.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.4\\microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.ai\\10.8.0\\microsoft.extensions.ai.10.8.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.8.0\\microsoft.extensions.ai.abstractions.10.8.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.apidescription.server\\10.0.0\\microsoft.extensions.apidescription.server.10.0.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.openapi\\2.7.5\\microsoft.openapi.2.7.5.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\10.0.3\\npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\ollamasharp\\5.4.30\\ollamasharp.5.4.30.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\qdrant.client\\1.19.0\\qdrant.client.1.19.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\swashbuckle.aspnetcore\\10.2.3\\swashbuckle.aspnetcore.10.2.3.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\10.2.3\\swashbuckle.aspnetcore.swagger.10.2.3.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\10.2.3\\swashbuckle.aspnetcore.swaggergen.10.2.3.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\10.2.3\\swashbuckle.aspnetcore.swaggerui.10.2.3.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\system.numerics.tensors\\10.0.10\\system.numerics.tensors.10.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}

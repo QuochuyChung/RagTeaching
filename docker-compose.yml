@@ -1,0 +1,40 @@
+# File yaml sẽ có những field riêng - template riêng
+# Phải viết đúng tên field thì Docker mới có thể hiểu và chạy được
+services:
+  # tên gì cũng được
+  qdrant:
+    image: qdrant/qdrant
+    ports:
+      # 2 loại port
+      # - public port: port sẽ là theo định dạng <địa chỉ ip>:<public port>
+      # public port đặt là gì cũng được: 192.168.1.100:6333
+      # private port: là port mà trong docker file người viết cái file để build ra image ghi expose <private port> đó 
+      # cú pháp để ghi port <public port>:<private port> - | 6333:6333 |, 6333 là port private của qdrant mà người viết image expose ra
+      - 6333:6333 # 6333 là port vào web UI
+      - 6334:6334 # giao tiếp bằng phương gRPC (HTTP, TCP, UDP, ...)
+    volumes:
+      - qdrant_data:/qdrant/storage
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: rag
+      POSTGRES_PASSWORD: rag123
+      POSTGRES_DB: ragdb
+    ports:
+      - 5432:5432
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+  ollama:
+    image: ollama/ollama
+    ports:
+      - 11434:11434
+    volumes:
+      - ollama_data:/root/.ollama
+
+volumes:
+  qdrant_data:
+    name: qdrant_data_volume    
+  pg_data:
+    name: postgre_data_volume
+  ollama_data: 
+    name: ollama_data_volume

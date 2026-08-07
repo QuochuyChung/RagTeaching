@@ -1,0 +1,14 @@
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\bin\Debug\net10.0\RagApi.Infrastructure.deps.json
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\bin\Debug\net10.0\RagApi.Infrastructure.runtimeconfig.json
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\bin\Debug\net10.0\RagApi.Infrastructure.dll
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\bin\Debug\net10.0\RagApi.Infrastructure.pdb
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\RagApi.Infrastructure.csproj.AssemblyReference.cache
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\RagApi.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\RagApi.Infrastructure.AssemblyInfoInputs.cache
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\RagApi.Infrastructure.AssemblyInfo.cs
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\RagApi.Infrastructure.csproj.CoreCompileInputs.cache
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\RagApi.Infrastructure.dll
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\refint\RagApi.Infrastructure.dll
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\RagApi.Infrastructure.pdb
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\RagApi.Infrastructure.genruntimeconfig.cache
+D:\Teaching\RAG\SourceCode\RagApi.Infrastructure\obj\Debug\net10.0\ref\RagApi.Infrastructure.dll

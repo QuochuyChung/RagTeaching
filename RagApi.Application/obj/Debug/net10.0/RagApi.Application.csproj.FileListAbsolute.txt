@@ -1,0 +1,15 @@
+D:\Teaching\RAG\SourceCode\RagApi.Application\bin\Debug\net10.0\RagApi.Application.deps.json
+D:\Teaching\RAG\SourceCode\RagApi.Application\bin\Debug\net10.0\RagApi.Application.dll
+D:\Teaching\RAG\SourceCode\RagApi.Application\bin\Debug\net10.0\RagApi.Application.pdb
+D:\Teaching\RAG\SourceCode\RagApi.Application\bin\Debug\net10.0\RagApi.Infrastructure.dll
+D:\Teaching\RAG\SourceCode\RagApi.Application\bin\Debug\net10.0\RagApi.Infrastructure.pdb
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Application.csproj.AssemblyReference.cache
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Application.AssemblyInfoInputs.cache
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Application.AssemblyInfo.cs
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Application.csproj.CoreCompileInputs.cache
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.A.6DA4D84E.Up2Date
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Application.dll
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\refint\RagApi.Application.dll
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Application.pdb
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\ref\RagApi.Application.dll

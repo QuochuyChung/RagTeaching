@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "zUkBsNyCfg0=",
+  "success": true,
+  "projectFilePath": "D:\\Teaching\\RAG\\SourceCode\\RagApi.Application\\RagApi.Application.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\google.protobuf\\3.31.0\\google.protobuf.3.31.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\grpc.core.api\\2.71.0\\grpc.core.api.2.71.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\grpc.net.client\\2.71.0\\grpc.net.client.2.71.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\grpc.net.common\\2.71.0\\grpc.net.common.2.71.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.4\\microsoft.entityframeworkcore.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\10.0.4\\microsoft.entityframeworkcore.abstractions.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\10.0.4\\microsoft.entityframeworkcore.analyzers.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.entityframeworkcore.relational\\10.0.4\\microsoft.entityframeworkcore.relational.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.ai\\10.8.0\\microsoft.extensions.ai.10.8.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.ai.abstractions\\10.8.0\\microsoft.extensions.ai.abstractions.10.8.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\10.0.10\\microsoft.extensions.caching.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.caching.memory\\10.0.4\\microsoft.extensions.caching.memory.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\10.0.4\\microsoft.extensions.configuration.abstractions.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\10.0.4\\microsoft.extensions.dependencyinjection.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.10\\microsoft.extensions.dependencyinjection.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.logging\\10.0.4\\microsoft.extensions.logging.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.10\\microsoft.extensions.logging.abstractions.10.0.10.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.options\\10.0.4\\microsoft.extensions.options.10.0.4.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\microsoft.extensions.primitives\\10.0.10\\microsoft.extensions.primitives.10.0.10.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\10.0.3\\npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\ollamasharp\\5.4.30\\ollamasharp.5.4.30.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\qdrant.client\\1.19.0\\qdrant.client.1.19.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\system.numerics.tensors\\10.0.10\\system.numerics.tensors.10.0.10.nupkg.sha512"
+  ],
+  "logs": []
+}
