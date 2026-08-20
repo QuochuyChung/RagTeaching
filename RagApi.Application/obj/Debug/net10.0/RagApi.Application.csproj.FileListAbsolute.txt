@@ -13,3 +13,4 @@ D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Applicati
 D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\refint\RagApi.Application.dll
 D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Application.pdb
 D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\ref\RagApi.Application.dll
+D:\Teaching\RAG\SourceCode\RagApi.Application\obj\Debug\net10.0\RagApi.Application.sourcelink.json

@@ -9,6 +9,7 @@ public class Documents
     public DateTime CreatedAt {get; set;} = DateTime.UtcNow;
     public decimal FileSize{get; set;}
     public ICollection<Chunks> Chunks = new List<Chunks>();
+    public Guid UserId {get; set;} = Guid.NewGuid();
     public Users? Users {get; set;} = null!;
 
 }
