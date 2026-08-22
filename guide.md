@@ -66,3 +66,47 @@ dotnet run --project RagApi.API
 # GET https://localhost:xxxx/health → {"status":"ok"}
 # Swagger: https://localhost:xxxx/swagger
 ```
+
+## Cheatsheet — EF Core Migration
+
+**Điều kiện 1:** luôn chạy từ thư mục gốc solution (`SourceCode/`), **không** đứng trong `RagApi.API/` hay `RagApi.Infrastructure/` — vì `--project`/`--startup-project` là đường dẫn tương đối tính từ chỗ đang đứng.
+
+**Điều kiện 2:** `Microsoft.EntityFrameworkCore.Design` phải cài ở **cả 2 project** — nơi có `DbContext` (`RagApi.Infrastructure`) **và** project khởi động (`RagApi.API`). Thiếu 1 trong 2 sẽ báo lỗi tương ứng.
+
+```bash
+dotnet tool install --global dotnet-ef      # cài tool, chỉ cần 1 lần cho máy
+dotnet tool update --global dotnet-ef       # cập nhật tool lên bản mới nhất
+
+# tạo migration mới
+dotnet ef migrations add <TênMigration> --project RagApi.Infrastructure --startup-project RagApi.API
+
+# áp migration lên database thật
+dotnet ef database update --project RagApi.Infrastructure --startup-project RagApi.API
+
+# liệt kê tất cả migration đã tạo
+dotnet ef migrations list --project RagApi.Infrastructure --startup-project RagApi.API
+
+# xóa migration cuối cùng (chỉ dùng khi CHƯA chạy database update)
+dotnet ef migrations remove --project RagApi.Infrastructure --startup-project RagApi.API
+
+# rollback về đúng 1 migration cũ hơn (ví dụ lùi về "Init")
+dotnet ef database update Init --project RagApi.Infrastructure --startup-project RagApi.API
+
+# rollback về trạng thái trống (bỏ hết migration khỏi DB, chưa xóa DB)
+dotnet ef database update 0 --project RagApi.Infrastructure --startup-project RagApi.API
+
+# xuất toàn bộ migration ra file SQL (để review hoặc đưa DBA, không chạy trực tiếp)
+dotnet ef migrations script --project RagApi.Infrastructure --startup-project RagApi.API -o migration.sql
+
+# xóa hẳn database — reset sạch, MẤT DATA
+dotnet ef database drop --project RagApi.Infrastructure --startup-project RagApi.API
+```
+
+**Bug đã gặp:**
+- `Unable to retrieve project metadata` — chạy lệnh khi đang đứng trong `RagApi.API/`, không phải solution root.
+- `Unable to create a 'DbContext'...` — thiếu cờ `--project`/`--startup-project`.
+- `project ... không reference EF Core Design` — quên cài `Microsoft.EntityFrameworkCore.Design` ở project startup (`RagApi.API`), không chỉ ở project chứa `DbContext`.
+- `The entity type 'X' requires a primary key to be defined` — đặt tên class số nhiều (`Chunks`) nhưng property khóa chính lại số ít (`ChunkId`). EF Core convention tự nhận PK theo `Id` hoặc `<TênClass>Id` — không khớp thì không nhận ra. Fix bằng khai tường minh trong `OnModelCreating`:
+  ```csharp
+  modelBuilder.Entity<Chunks>().HasKey(c => c.ChunkId);
+  ```

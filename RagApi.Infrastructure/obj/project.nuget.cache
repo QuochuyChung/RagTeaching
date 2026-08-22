@@ -1,9 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "BZwaCO3QbP8=",
+  "dgSpecHash": "XskHFcvXQRQ=",
   "success": true,
   "projectFilePath": "D:\\Teaching\\RAG\\SourceCode\\RagApi.Infrastructure\\RagApi.Infrastructure.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Acer\\.nuget\\packages\\google.protobuf\\3.31.0\\google.protobuf.3.31.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\grpc.core.api\\2.71.0\\grpc.core.api.2.71.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\grpc.net.client\\2.71.0\\grpc.net.client.2.71.0.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\grpc.net.common\\2.71.0\\grpc.net.common.2.71.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.build.framework\\18.0.2\\microsoft.build.framework.18.0.2.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.11.0\\microsoft.codeanalysis.analyzers.3.11.0.nupkg.sha512",
@@ -32,6 +36,7 @@
     "C:\\Users\\Acer\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\10.0.3\\npgsql.entityframeworkcore.postgresql.10.0.3.nupkg.sha512",
+    "C:\\Users\\Acer\\.nuget\\packages\\qdrant.client\\1.19.0\\qdrant.client.1.19.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.codedom\\6.0.0\\system.codedom.6.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.composition\\9.0.0\\system.composition.9.0.0.nupkg.sha512",
     "C:\\Users\\Acer\\.nuget\\packages\\system.composition.attributedmodel\\9.0.0\\system.composition.attributedmodel.9.0.0.nupkg.sha512",

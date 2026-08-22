@@ -271,7 +271,8 @@
       },
       "RagApi.Infrastructure/1.0.0": {
         "dependencies": {
-          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3"
+          "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3",
+          "Qdrant.Client": "1.19.0"
         },
         "runtime": {
           "RagApi.Infrastructure.dll": {

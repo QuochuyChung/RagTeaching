@@ -416,6 +416,10 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[10.0.3, )"
+            },
+            "Qdrant.Client": {
+              "target": "Package",
+              "version": "[1.19.0, )"
             }
           },
           "imports": [

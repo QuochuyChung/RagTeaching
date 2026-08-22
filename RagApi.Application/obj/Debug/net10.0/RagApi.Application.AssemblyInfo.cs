@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("RagApi.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+41cbe1243557ac89f6896d2f074629c63edb3f7c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f31b537ed51ab63cab6ecbc9f22f8fcaedaa812c")]
 [assembly: System.Reflection.AssemblyProductAttribute("RagApi.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("RagApi.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
